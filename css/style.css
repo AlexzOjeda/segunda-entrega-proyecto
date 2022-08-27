@@ -35,6 +35,7 @@
     color: #00000000;
 }
 
+
 .header a {
     color: white;
     text-decoration: none;
@@ -49,6 +50,19 @@
 
 .header img {
     padding: 20px;
+}
+
+.logoMovimiento {
+    transition: all 300ms ease;
+    overflow: hidden;
+}
+
+.logoMovimiento img {
+    transition: all 300ms ease;
+}
+
+.logoMovimiento img:hover {
+    transform: scale(1.08)
 }
 
 .header li {
